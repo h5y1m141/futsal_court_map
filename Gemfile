@@ -24,6 +24,11 @@ gem 'omniauth-twitter', '~> 1.0.1'
 
 gem "shoulda-matchers", "~> 2.6.0"
 
+# フットサルコートの情報収集のためのクローラー活用するため
+gem 'rake'
+gem 'rake_shared_context'
+gem 'activerecord-import'
+
 group :development, :test do
   gem 'rspec-rails', '3.0.2'
   gem 'spring'
