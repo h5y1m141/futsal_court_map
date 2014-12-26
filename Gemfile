@@ -18,6 +18,9 @@ gem 'carrierwave', '~> 0.10.0'
 gem 'rmagick', require: 'RMagick'
 gem 'fog'
 
+# cronとして動作させるために導入
+gem 'whenever', :require => false
+
 # ユーザ認証のため
 gem 'omniauth', '~> 1.2.1'
 gem 'omniauth-twitter', '~> 1.0.1'
