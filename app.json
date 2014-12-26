@@ -1,0 +1,12 @@
+{
+  "name": "Ruby on Rails",
+  "description": "A template for getting started with the popular Ruby framework.",
+  "success_url": "/",
+  "addons": ["cleardb", "papertrail"],
+  "env": {
+    "RAILS_ENV": "production"
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:create"
+  }
+}
